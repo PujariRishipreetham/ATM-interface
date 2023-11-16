@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="atm.css">
+    <script src="atm.js"></script>
+    <title>ATM Machine</title>
+</head>
+<body>
+    <div class="container">
+        <h1>ATM Machine</h1>
+        <div class="account">
+            <p>Account Balance: <span id="balance">$1000</span></p>
+        </div>
+        <div class="options">
+            <button onclick="withdraw()">Withdraw</button>
+            <button onclick="deposit()">Deposit</button>
+            <button onclick="checkBalance()">Check Balance</button>
+        </div>
+        <div class="transaction-message" id="transaction-message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
